@@ -1,0 +1,65 @@
+/* -----------exercice1------------
+.container {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+}
+.line {
+    background-color: red;
+}
+#hline {
+    width: 100px;
+    height: 4px;
+    position: absolute;
+    top: 10px;
+}
+#vline {
+    width: 4px;
+    height: 100px;
+    position: absolute;
+    left: 10px;
+} -----------exercice1------------*/
+
+/* -----------exercice2------------
+.container {
+    background-color: peru;
+    border-radius: 4px;
+    position: absolute;
+}
+.box {
+    position: relative;
+    margin: 15px 50px 0px 5px;
+}
+.graph {
+    background-color: gray;
+    width: 20px;
+    position: relative;
+    display: inline-block;
+}
+#g1 {
+    height: 60px;
+}
+#g2 {
+    height: 40px;
+}
+#g3 {
+    height: 20px;
+}
+#g4 {
+    height: 10px;
+}
+#g5 {
+    height: 60px;
+}
+#g6 {
+    height: 70px;
+}
+#t {
+    display: inline-block;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+} 
+-----------exercice2------------*/
+
