@@ -1,23 +1,5 @@
-.pink {
-    height: 50px;
-    width: 100px;
-    background: pink;
-    border: solid 2px rgb(200, 100, 50);
-}
-#sub{
-    display: block;
-}
 body {
     background: #ddd;
-}
-nav {
-    background-color: rgb(51, 51, 51);
-}
-.hero-image{
-    width: 100%;
-}
-li:nth-child(1) a {
-    color: green;
 }
 #first {
     background-color: #19b391;
