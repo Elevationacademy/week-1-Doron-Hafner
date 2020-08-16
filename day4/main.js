@@ -24,9 +24,10 @@ const isEven = function (num) {
     return true
 }
 console.log(isEven(100));
+*/
 
 
-//-----------------exercise4-----------------
+/*-----------------exercise4-----------------
 const oddarr = function (arr) {
     for (const index of arr) {
         if (isEven(index)) {
@@ -108,6 +109,7 @@ console.log(arr);
 */
 
 
+//-----------------mini-lesson1----------------
 const getSummary = function (person) {
     let summary = ''
     summary += capitalize(person.name)
@@ -117,8 +119,6 @@ const getSummary = function (person) {
     summary += `${capitalize(person.name)} love to say ${catchphrasereturn(person.catchphrase)}`
     return summary
 }
- 
-
 const capitalize = function (str) {
     let capitalizedStr = ''
     capitalizedStr += str[0].toUpperCase()
@@ -145,13 +145,13 @@ const prof = function (profession) {
 }
 const countryCity = function(city, country){
     let countrycity = capitalize(city)
-    countrycity += capitalize(country) //`, ${capitalize(country)}`
+    countrycity += capitalize(country) 
     return countrycity
 }
 const catchphrasereturn = function(phrase){
     return `\"${phrase}\"`
 }
-
+debugger;
 
 people_info = [
     {
@@ -179,4 +179,38 @@ people_info = [
         catchphrase: "with great responsibility comes great power"
     }
 ]
-console.log(getSummary(people_info[0]));
+// console.log(getSummary(people_info[0]));
+
+
+
+//-----------------mini-lesson2.1------------------
+const peopleInfoSum = function() {
+    let arr = []
+    for (const index in people_info){
+         arr += [people_info['index']]
+}
+     return arr 
+}
+console.log(peopleInfoSum);
+
+
+
+//-----------------mini-lesson2.2------------------
+// const story = "In the beginning there was light. Then there were wolves. Finally there was a big fire. Ultimately, Shelob the wolf-master put out the fire with her feet. But until then, the fire caused one heck of a lot of damage."
+// const specialChars = [",", ".", "'", '"',"?", "!", ";"]
+// const wordCounts = {}
+
+// const cleanSpecialChar = function(str, specialChars){
+//     let schar = str.split("")
+//     for (const iterator of specialCharsc) {
+//         for (const iteratori of schar) {
+//             if (iterator == iteratori){
+//             let count ++
+//             }
+//             const specialArr
+//         }
+//     }
+//     return schar
+// }
+// console.log(cleanSpecialChar(story));
+
