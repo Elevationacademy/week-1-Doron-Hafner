@@ -1,0 +1,30 @@
+.container {
+    margin: auto;
+    background-color: cadetblue;
+    width: 250px;
+    height: 270px;
+    padding: 3% 3% 8% 3%;
+    
+}
+
+
+input {
+    display: block;
+    margin-top: 2px;
+    width: 90%;
+}
+.input {
+    margin-top: 2px;
+}
+
+
+button {
+    float: right;
+    margin-top: 20%;
+}
+p {
+    float: left;
+    color: red;
+    margin-top: 20%;
+
+}

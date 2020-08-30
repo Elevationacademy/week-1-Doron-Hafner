@@ -10,19 +10,24 @@
 
 <body>
     <div class="container">
-        <form action="submit">
-            <label for="name">Name</label>
-            <input type="text" name="name" id="">
-            <label for="sal">Desired Salary</label>
-            <input type="text" name="sal" id="">
-            <label for="birthday">Birhday</label>
-            <input type="date" name="birthday" id="">
-            <label for="phoneNum">Phone</label>
-            <input type="text" name="tel" id="">
-            <button type="submit">Submit</button>
-        </form>
+        <div class="form">
+            <div class="input">Name
+                <input type="text" minlength="2" id="name">
+            </div>
+            <div class="input">Desired Salary
+                <input type="number" min="10000" max="16000" id="salary">
+            </div>
+            <div class="input">Birhday
+                <input type="date" id="bday">
+            </div>
+            <div class="input">Phone
+                <input type="text" id="phone">
+            </div>
+            <button type="submit" onclick="checkInputs()">Submit</button>
+            <p></p>
+        </div>
+        
     </div>
     <script src="main.js"></script>
 </body>
-
 </html>
